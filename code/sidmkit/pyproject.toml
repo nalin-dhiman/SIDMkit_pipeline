@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sidmkit"
+version = "0.3.0"
+description = "A transparent toolkit for SIDM micro→macro work: cross sections, velocity averaging, curated constraints, halo mapping, likelihood scaffolds, scanning and benchmarks."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Your Team", email = "you@example.com"}
+]
+dependencies = [
+  "numpy>=1.22",
+  "scipy>=1.9",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7",
+]
+plot = ["matplotlib>=3.7"]
+sparc = ["matplotlib>=3.7"]
+
+[project.scripts]
+sidmkit = "sidmkit.cli:main"
+sidmkit-sparc = "sidmkit.sparc_batch:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

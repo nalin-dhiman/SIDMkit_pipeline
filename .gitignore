@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Output data (exclude large output files)
+outputs/*.h5
+outputs/*.npy
+outputs/*.npz
+outputs/*.dat
+
+# Results (exclude large result files if needed)
+results/*.h5
+results/*.npy
+results/*.npz
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large data files
+*.hdf5
+*.h5
+*.fits
+*.fits.gz

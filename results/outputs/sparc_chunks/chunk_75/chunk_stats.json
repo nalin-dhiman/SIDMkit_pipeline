@@ -1,0 +1,13 @@
+{
+  "n_total": 191,
+  "n_selected": 25,
+  "skip": 75,
+  "limit": 25,
+  "n_fit_rows": 50,
+  "n_fail_parse": 0,
+  "models": [
+    "nfw",
+    "burkert"
+  ],
+  "plots": true
+}

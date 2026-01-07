@@ -1,0 +1,8 @@
+{
+  "n_galaxies_with_delta_bic": 191,
+  "delta_bic_median": 1.8122916761604984,
+  "delta_bic_mean": 12.915026984600376,
+  "frac_burkert_preferred": 0.6544502617801047,
+  "frac_strong_burkert": 0.32460732984293195,
+  "frac_strong_nfw": 0.14659685863874344
+}

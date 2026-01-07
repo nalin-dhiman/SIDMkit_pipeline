@@ -1,0 +1,14 @@
+{
+  "n_galaxies_with_both_models": 191,
+  "delta_bic_median": 1.8122916761604984,
+  "delta_bic_mean": 12.915026984600376,
+  "frac_burkert_preferred": 0.6544502617801047,
+  "frac_strong_burkert_delta_bic_gt_6": 0.32460732984293195,
+  "frac_strong_nfw_delta_bic_lt_-6": 0.14659685863874344,
+  "chi2red_median_nfw": 1.2512963017292638,
+  "chi2red_median_burkert": 0.7083374570979992,
+  "chi2red_mean_nfw": 2.5537985469335323,
+  "chi2red_mean_burkert": 1.541392937569146,
+  "nfw_logrs_hit_upper_frac": 0.21465968586387435,
+  "nfw_logrs_hit_lower_frac": 0.0
+}

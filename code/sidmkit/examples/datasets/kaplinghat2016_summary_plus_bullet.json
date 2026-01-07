@@ -1,0 +1,31 @@
+{
+  "name": "kaplinghat2016_summary_plus_bullet",
+  "constraints": [
+    {
+      "name": "Galaxies (constant \u03c3/m fit)",
+      "kind": "measurement",
+      "observable": "sigma_over_m",
+      "v_km_s": 100.0,
+      "mean": 1.9,
+      "sigma": 0.6,
+      "reference": "Kaplinghat/Tulin/Yu-style summary: galaxies best-fit \u03c3/m\u22481.9^{+0.6}_{-0.5} cm^2/g"
+    },
+    {
+      "name": "Clusters (constant \u03c3/m fit)",
+      "kind": "measurement",
+      "observable": "sigma_over_m",
+      "v_km_s": 1500.0,
+      "mean": 0.1,
+      "sigma": 0.03,
+      "reference": "Kaplinghat/Tulin/Yu-style summary: clusters best-fit \u03c3/m\u22480.10^{+0.03}_{-0.02} cm^2/g"
+    },
+    {
+      "name": "Bullet Cluster (summary upper bound)",
+      "kind": "upper",
+      "observable": "sigma_over_m",
+      "v_km_s": 4000.0,
+      "upper": 0.7,
+      "reference": "Summary bound often quoted; see e.g. Tulin & Yu review Table I"
+    }
+  ]
+}

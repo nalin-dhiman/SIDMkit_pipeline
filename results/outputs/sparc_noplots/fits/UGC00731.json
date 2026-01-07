@@ -1,0 +1,46 @@
+[
+  {
+    "galaxy": "UGC00731",
+    "source": "src/sidmkit/sparc_data/Rotmod_LTG/UGC00731_rotmod.dat",
+    "distance_mpc": 12.5,
+    "model": "nfw",
+    "n_points": 12,
+    "k_params": 3,
+    "chi2": 3.39413760029123,
+    "dof": 9,
+    "chi2_red": 0.37712640003235887,
+    "aic": 9.39413760029123,
+    "bic": 10.848857549655232,
+    "ups_disk": 0.5029798240247526,
+    "ups_bul": null,
+    "halo_params": {
+      "log10_rho_s_msun_kpc3": 6.769095420639077,
+      "log10_r_s_kpc": 0.9149725908043461
+    },
+    "success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "runtime_s": 0.001176595687866211
+  },
+  {
+    "galaxy": "UGC00731",
+    "source": "src/sidmkit/sparc_data/Rotmod_LTG/UGC00731_rotmod.dat",
+    "distance_mpc": 12.5,
+    "model": "burkert",
+    "n_points": 12,
+    "k_params": 3,
+    "chi2": 5.701166064791754,
+    "dof": 9,
+    "chi2_red": 0.6334628960879727,
+    "aic": 11.701166064791753,
+    "bic": 13.155886014155755,
+    "ups_disk": 0.5019068481771731,
+    "ups_bul": null,
+    "halo_params": {
+      "log10_rho0_msun_kpc3": 7.792534010427223,
+      "log10_r0_kpc": 0.3723457271939078
+    },
+    "success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "runtime_s": 0.0009412765502929688
+  }
+]
