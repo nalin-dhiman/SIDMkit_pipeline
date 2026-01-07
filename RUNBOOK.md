@@ -3,7 +3,6 @@
 This folder is a *complete* reproducibility bundle:
 - `code/` contains the PyPI-ready `sidmkit` source tree (editable-install friendly).
 - `results/` contains the already-generated SPARC batch outputs (plots + summaries).
-- `paper/` contains the LaTeX manuscript + figures + a compiled PDF.
 
 This runbook tells you how to re-run everything from scratch.
 
