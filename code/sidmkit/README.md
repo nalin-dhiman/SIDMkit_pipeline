@@ -9,15 +9,15 @@ A transparent toolkit for **self-interacting dark matter (SIDM)** micro→macro 
 - Lightweight **likelihood scaffolds** + a tiny Metropolis MCMC for runnable end-to-end demos
 - Benchmarks & regression numbers to catch numerical/unit regressions
 
-> Be critical: sidmkit is designed to be easy to audit and extend.
+> sidmkit is designed to be easy to audit and extend.
 > The included constraints and likelihoods are *starting points*, not publication-grade analyses.
 
 ---
 
-## Install (editable)
+## Install
 
 ```bash
-git clone <your-fork-or-this-repo>
+git clone
 cd sidmkit
 python -m venv .venv
 source .venv/bin/activate
@@ -43,7 +43,7 @@ sidmkit validate --help
 
 ---
 
-## End-to-end pipeline (reviewer-proof baseline)
+## End-to-end pipeline
 
 This is the **recommended** reproducible workflow.
 
@@ -172,7 +172,7 @@ sidmkit validate --target curve --reference your_curve.csv \
   --mchi 10 --mmed 0.05 --alpha 0.01 --potential attractive
 ```
 
-### Fig.13-style regression number (approximate)
+
 
 This is a non-authoritative regression test using a small set of auto-digitized points:
 
