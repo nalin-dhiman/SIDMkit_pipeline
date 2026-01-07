@@ -106,26 +106,3 @@ This writes:
 
 ---
 
-## 5) Build the paper PDF
-
-```bash
-cd paper
-make
-```
-
-Outputs: `paper/sidmkit_sparc_submission.pdf`
-
----
-
-## 6) PyPI packaging checklist
-
-From `code/sidmkit/`:
-
-```bash
-python -m build
-twine check dist/*
-```
-
-This produces `dist/sidmkit-*.tar.gz` and `dist/sidmkit-*.whl`.
-
-(Uploading requires credentials and is intentionally not automated here.)
